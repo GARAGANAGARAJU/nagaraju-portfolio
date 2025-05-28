@@ -3,53 +3,49 @@ html(lang="en")
   head
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
-    meta(name="description", content="")
-    meta(name="author", content="")
-    title Resume - Start Bootstrap Theme
+    meta(name="description", content="Resume - Garaga Nagaraju")
+    meta(name="author", content="Garaga Nagaraju")
+    title Garaga Nagaraju - DevOps Engineer
     link(rel="icon", type="image/x-icon", href="assets/img/favicon.ico")
-    // Font Awesome
     script(src="https://use.fontawesome.com/releases/v6.3.0/js/all.js", crossorigin="anonymous")
-    // Google fonts
-    link(href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700", rel="stylesheet", type="text/css")
-    link(href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i", rel="stylesheet", type="text/css")
-    // Theme CSS
+    link(href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i", rel="stylesheet")
     link(href="css/styles.css", rel="stylesheet")
 
   body#page-top
-    // Navigation
     nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top#sideNav
       a.navbar-brand.js-scroll-trigger(href="#page-top")
-        span.d-block.d-lg-none Garaga NagaRaju
+        span.d-block.d-lg-none Garaga Nagaraju
         span.d-none.d-lg-block
-          img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src="assets/img/garaganagaraju.jpg", alt="...")
-      button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarResponsive", aria-controls="navbarResponsive", aria-expanded="false", aria-label="Toggle navigation")
+          img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src="assets/img/garaganagaraju.jpg", alt="Garaga Nagaraju")
+      button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarResponsive")
         span.navbar-toggler-icon
       .collapse.navbar-collapse#navbarResponsive
         ul.navbar-nav
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#About") About
+            a.nav-link.js-scroll-trigger(href="#about") About
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#Experience") Experience
+            a.nav-link.js-scroll-trigger(href="#experience") Experience
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#Education") Education
+            a.nav-link.js-scroll-trigger(href="#education") Education
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#Skills") Skills
+            a.nav-link.js-scroll-trigger(href="#skills") Skills
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#Certifications") Certifications
+            a.nav-link.js-scroll-trigger(href="#certifications") Certifications
 
-    // Page Content
     .container-fluid.p-0
       // About
       section.resume-section#about
         .resume-section-content
           h1.mb-0
-            | Clarence 
-            span.text-primary Taylor
+            | Garaga 
+            span.text-primary Nagaraju
           .subheading.mb-5
-            | Gachibowli Hyderabad, +91 8074758976 · 
+            | Gachibowli, Hyderabad · +91 8074758976 · 
             a(href="mailto:rnaga322@gmail.com") rnaga322@gmail.com
           p.lead.mb-5
-            | I’m a DevOps Engineer with hands-on experience in designing, implementing, and maintaining complex IT infrastructures...
+            | I’m a DevOps Engineer with strong knowledge in CI/CD pipelines, infrastructure as code, and automation. With over 1.5 years of hands-on experience, I have worked on various cloud-native technologies including AWS, Docker, Kubernetes, Terraform, and more. I’m passionate about building efficient, scalable, and secure systems.
+
           .social-icons
             a.social-icon(href="https://www.linkedin.com/in/garaga-nagaraju-539929205/", target="_blank")
               i.fab.fa-linkedin-in
@@ -63,29 +59,85 @@ html(lang="en")
         .resume-section-content
           h2.mb-5 Experience
 
-          // Job 1
           .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
             .flex-grow-1
-              h3.mb-0 DevOpsEngineer
+              h3.mb-0 DevOps Engineer
               .subheading.mb-3 Algorizz Technologies Pvt Ltd
-              p Driving innovation at Algorizz...
+              p
+                | - Automating deployments using GitHub Actions and managing infrastructure using Terraform and Packer.  
+                | - Created and maintained CI/CD pipelines, implemented monitoring and logging with Filebeat and PM2.  
+                | - Used Golden AMIs to speed up infrastructure provisioning.  
             .flex-shrink-0
-              span.text-primary March 2025 - Present
+              span.text-primary March 2025 – Present
 
-          // Job 2
           .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
             .flex-grow-1
-              h3.mb-0 DevOpsEngineer
+              h3.mb-0 DevOps Engineer
               .subheading.mb-3 CloudBuilders Technologies Pvt Ltd
-              p At CloudBuilders Technologies, I synergized cutting-edge automation...
+              p
+                | - Deployed applications on Azure using Azure DevOps Release Pipelines.  
+                | - Created deployment scripts with Bash, used Azure Artifacts for package management.  
+                | - Integrated SonarCloud for quality checks and Teams for deployment notifications.  
             .flex-shrink-0
-              span.text-primary February 2024 - February 2025
+              span.text-primary Feb 2024 – Feb 2025
 
-          // Job 3
+          .d-flex.flex-column.flex-md-row.justify-content-between
+            .flex-grow-1
+              h3.mb-0 DevOps Intern
+              .subheading.mb-3 Pearlthoughts
+              p
+                | - Learned CI/CD, Docker, and version control best practices.  
+                | - Assisted in setting up test environments and configuring servers.  
+            .flex-shrink-0
+              span.text-primary Oct 2023 – Dec 2023
+
+      hr.m-0
+
+      // Education
+      section.resume-section#education
+        .resume-section-content
+          h2.mb-5 Education
           .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
             .flex-grow-1
-              h3.mb-0 DevOpsEngineer Intern
-              .subheading.mb-3 Pearlthoughts
-              p Podcasting agile-driven innovation at PearlThoughts...
+              h3.mb-0 Adikavi Nannaya University
+              .subheading.mb-3 B.Sc in Mathematics, Physics, and Computer Science (MPCS)
+              p GPA: 8.1/10
             .flex-shrink-0
-              span.text-primary October 2023 - December 2023
+              span.text-primary 2019 – 2022
+
+      hr.m-0
+
+      // Skills
+      section.resume-section#skills
+        .resume-section-content
+          h2.mb-5 Skills
+          .subheading.mb-3 DevOps & Tools
+          ul.list-inline.dev-icons
+            li.list-inline-item
+              i.fab.fa-aws
+            li.list-inline-item
+              i.fab.fa-docker
+            li.list-inline-item
+              i.fab.fa-github
+            li.list-inline-item
+              i.fab.fa-linux
+          ul
+            li AWS (EC2, S3, IAM, Route53)
+            li Docker, Kubernetes (basic)
+            li Terraform, Packer, Ansible
+            li Git, GitHub Actions, Azure DevOps
+            li Bash scripting, PM2, Filebeat
+            li CI/CD, SBOM, SonarCloud, Nginx
+
+      hr.m-0
+
+      // Certifications
+      section.resume-section#certifications
+        .resume-section-content
+          h2.mb-5 Certifications
+          ul
+            li Microsoft Certified: Azure Fundamentals (AZ-900)
+            li Microsoft Certified: Azure AI Fundamentals (AI-900)
+            li Kubernetes and Cloud Native Associate (KCNA)
+            li GitHub Actions Hands-On Workshop (2024)
+            li Terraform for DevOps – Udemy Certified
